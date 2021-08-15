@@ -1,0 +1,32 @@
+name: book_list_sample
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.4.0
+  cloud_firestore: ^2.4.0
+  provider: ^5.0.0
+  flutter_slidable: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  module:
+    androidX: true
+    androidPackage: net.kanaupi.book_list_sample
+    iosBundleIdentifier: net.kanaupi.bookListSample
